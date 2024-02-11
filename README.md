@@ -355,14 +355,13 @@ High
 ```json
 { "DFIntS2PhysicsSenderRate": "1", "FIntPGSAngularDampingPermilPersecond": "0" }
 ```
-### Noclip 1
+###  1
 ###### adjust the value so u dont fall through the ground
 ```json
 { "DFFlagAssemblyExtentsExpansionStudHundredth": "-50" }
 ```
 ### Noclip 2
 ```json
-{
 { "FIntPGSPenetrationMarginMax": "2147483647", "FIntPGSPenetrationMarginMin": "2147483647" }
 ```
 ### Noclip Combo
