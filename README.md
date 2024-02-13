@@ -7,11 +7,10 @@
 
 <h6 align="center">https://discord.gg/fastflags</h6>
 
-##### Version: 5.0.5 [2/9/2024]
+##### Version: 5.0.6 [2/14/2024]
 * **103 Currently Listed**
 * **5 Textures Currently Listed**
-* **New Formatting**
-* **Removed [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) Presets** <sup>Please use [Bloxstrap](https://github.com/pizzaboxer/bloxstrap)</sup>
+* **kill myself*
 
  # How to use
 * **Open the [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) Menu**
