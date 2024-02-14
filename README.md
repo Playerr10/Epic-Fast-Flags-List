@@ -7,10 +7,9 @@
 
 <h6 align="center">https://discord.gg/fastflags</h6>
 
-##### Version: 5.0.6 [2/14/2024]
-* **103 Currently Listed**
+##### Version: 6.0.1 [2/10/2024]
+* **109 Currently Listed**
 * **5 Textures Currently Listed**
-* **kill myself*
 
  # How to use
 * **Open the [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) Menu**
@@ -20,19 +19,24 @@
 <img src="/assets/tutorial.gif" width="750"/>
 
  # List Navigation
-* **[Rendering](https://github.com/devstacking/Epic-Fast-Flags-List?tab=readme-ov-file#rendering)**
-* **[Graphical](https://github.com/devstacking/Epic-Fast-Flags-List?tab=readme-ov-file#graphical-settings)**
-* **[UI](https://github.com/devstacking/Epic-Fast-Flags-List?tab=readme-ov-file#user-interface)**
-* **[Textures](https://github.com/devstacking/Epic-Fast-Flags-List?tab=readme-ov-file#textures)**
-* **[Physics](https://github.com/devstacking/Epic-Fast-Flags-List?tab=readme-ov-file#physics)**
-* **[Other FFlags](https://github.com/devstacking/Epic-Fast-Flags-List?tab=readme-ov-file#other-fflags)**
-* **[Links](https://github.com/devstacking/Epic-Fast-Flags-List?tab=readme-ov-file#links)**
+* **[Rendering](https://github.com/FastFlags/FastFlags-Collective?tab=readme-ov-file#rendering)**
+* **[Graphical](https://github.com/FastFlags/FastFlags-Collective?tab=readme-ov-file#graphical-settings)**
+* **[UI](https://github.com/FastFlags/FastFlags-Collective?tab=readme-ov-file#user-interface)**
+* **[Textures](https://github.com/FastFlags/FastFlags-Collective?tab=readme-ov-file#textures)**
+* **[Physics](https://github.com/FastFlags/FastFlags-Collective?tab=readme-ov-file#physics)**
+* **[Other FFlags](https://github.com/FastFlags/FastFlags-Collective?tab=readme-ov-file#other-fflags)**
+* **[Links](https://github.com/FastFlags/FastFlags-Collective?tab=readme-ov-file#links)**
 
 <img src="https://github.com/devstacking/Epic-Fast-Flags-List/assets/106433721/0d16e448-4097-44ef-9eef-c445155a4bcb" width="888"/>
 
 ### 
 
 <h3 align="center">══════⊹⊱≼≽⊰⊹══════</h3>
+
+### FPS Unlocker in Roblox Menu "Settings"
+```json
+{ "FFlagGameBasicSettingsFramerateCap": "True", "DFIntTaskSchedulerTargetFps": "0" }
+```
 
 <h1 align="center">Rendering API</h1>
 
@@ -132,7 +136,7 @@ High
 ```
 
 ### Low Render Distance
-###### [FRM](https://github.com/devstacking/Epic-Fast-Flags-List?tab=readme-ov-file#frm-levels)
+###### [FRM](https://github.com/FastFlags/FastFlags-Collective?tab=readme-ov-file#frm-levels)
 ```json
 { "DFIntDebugRestrictGCDistance": "1" }
 ```
@@ -150,7 +154,7 @@ High
 { "FIntRenderLocalLightFadeInMs": "0" }
 ```
 ### Makes avatars shiny 
-###### [everything goes black on <3] ***[DFIntDebugFRMQualityLevelOverride is there to set your graphics to 10, You can change it to anything above 3: [Click here to view](https://github.com/devstacking/Epic-Fast-Flags-List?tab=readme-ov-file#frm-levels) ]***
+###### [everything goes black on <3] ***[DFIntDebugFRMQualityLevelOverride is there to set your graphics to 10, You can change it to anything above 3: [Click here to view](https://github.com/FastFlags/FastFlags-Collective?tab=readme-ov-file#frm-levels) ]***
 ```json
 { "DFIntRenderClampRoughnessMax": "-640000000", "DFIntDebugFRMQualityLevelOverride": "21" }
 ```
@@ -179,7 +183,7 @@ High
 { "FFlagNewLightAttenuation": "True" }
 ```
 ### Enable GPULightCulling
-###### Combine with [Lighting Attenuation](https://github.com/devstacking/Epic-Fast-Flags-List?tab=readme-ov-file#lighting-attenuation) for better vision
+###### Combine with [Lighting Attenuation](https://github.com/FastFlags/FastFlags-Collective?tab=readme-ov-file#lighting-attenuation) for better vision
 ```json
 { "FFlagFastGPULightCulling3": "True" }
 ```
@@ -303,15 +307,30 @@ High
 }
 ```
 
-### Others moved to [Textures Branch](https://github.com/devstacking/Epic-Fast-Flags-List/tree/textures)
+### Others moved to [Textures Branch](devstacking/Epic-Fast-Flags-List)
 
 <h1 align="center">Physics</h1>
 
+### Old Physics
+```json
+{ "FFlagSimDefaultPGSSolver": "False" }
+```
+### No Animations
+###### gatekept ofc
+```json
+{ "": "" }
+```
 ### Stick unanchored parts to you
 ###### - = up, + = down
 ###### blame popbob he said it was ok to leak this
 ```json
 { "DFIntSolidFloorPercentForceApplication": "-1000", "DFIntNonSolidFloorPercentForceApplication": "-5000" }
+```
+### Custom Walkspeed on games that have default walkspeed <sup>every game!?</sup>
+###### gatekept ofc
+###### default value is 16 
+```json
+{ "": "VALUEHERE" }
 ```
 ### Breaks glitches stuff
 ###### All type of wallhops, longjumps, headhitters and probably more stop working
@@ -350,11 +369,24 @@ High
 ```json
 { "DFIntS2PhysicsSenderRate": "1" }
 ```
+### Invisible
+```json
+{ "DFIntS2PhysicsSenderRate": "-30" }
+```
+### Invisible 0,0,0
+###### gatekept ofc
+```json
+{ "": "" }
+```
+### Clientsided Invisible
+```json
+{ "FIntParallelDynamicPartsFastClusterBatchSize": "1" }
+```
 ### ultiamt desync flag!! 😱😱😱
 ```json
 { "DFIntS2PhysicsSenderRate": "1", "FIntPGSAngularDampingPermilPersecond": "0" }
 ```
-###  1
+### Noclip 1
 ###### adjust the value so u dont fall through the ground
 ```json
 { "DFFlagAssemblyExtentsExpansionStudHundredth": "-50" }
@@ -525,10 +557,6 @@ High
 ```json
 { "DFIntRemoteEventSingleInvocationSizeLimit": "1" }
 ```
-### Clientsided Invisible
-```json
-{ "FIntParallelDynamicPartsFastClusterBatchSize": "1" }
-```
 
 <h1 align="center">Links</h1>
 
@@ -565,5 +593,7 @@ FFlagSimIslandizerManager
 ###### [<sup>OG</sup>](https://rentry.org/uffl/)
 
 [.](https://open.spotify.com/track/4rAg5bbrdZX00mXXhLvYXj)
+
+###### creds to bloxstrap & rgc
 
 <h3 align="center">FastFlags 2024®<sup>eal</sup></h3>
