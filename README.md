@@ -7,7 +7,7 @@
 
 <h6 align="center">https://discord.gg/fastflags</h6>
 
-##### Version: 6.0.1 [2/10/2024]
+##### Version: 6.0.2 [2/14/2024]
 * **109 Currently Listed**
 * **5 Textures Currently Listed**
 
@@ -370,11 +370,18 @@ High
 ### Invisible 0,0,0
 ###### gatekept ofc
 ```json
-{ "": "" }
+{ "DFIntGameNetPVHeaderTranslationZeroCutoffExponent": "10" }
 ```
 ### Clientsided Invisible
 ```json
 { "FIntParallelDynamicPartsFastClusterBatchSize": "1" }
+```
+### Warp & Physics FPS cap
+```json
+{ "DFIntMaxMissedWorldStepsRemembered": "1" }
+```
+```json
+{ "DFIntMaxMissedWorldStepsRemembered": "1000" }
 ```
 ### ultiamt desync flag!! 😱😱😱
 ```json
