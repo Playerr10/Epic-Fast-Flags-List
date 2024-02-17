@@ -7,8 +7,8 @@
 
 <h6 align="center">https://discord.gg/fastflags</h6>
 
-##### Version: 6.0.2 [2/14/2024]
-* **110 Currently Listed**
+##### Version: 6.0.3 [2/17/2024]
+* **102 Currently Listed**
 * **5 Textures Currently Listed**
 
 ## How to Use:
@@ -342,14 +342,6 @@ High
 ```json
 { "DFIntNewRunningBaseGravityReductionFactorHundredth": "1500" }
 ```
-### Breaks movement on higher negative values
-```json
-{ "FIntPGSAngularDampingPermilPersecond": "-10000" }
-```
-### it does something to movement cant describe rn cus im busy
-```json
-{ "FIntPGSAngularDampingPermilPersecond": "0" }
-```
 ### It allows you to fall quicker and ignore certain block designs
 ```json
 { "FFlagHumanoidOnlySetCollisionsOnStateChangeDefaultIsEnabled": "False", "FFlagHumanoidParallelFasterSetCollision": "True" }
@@ -383,29 +375,6 @@ High
 ```json
 { "DFIntMaxMissedWorldStepsRemembered": "1000" }
 ```
-### ultiamt desync flag!! 😱😱😱
-```json
-{ "DFIntS2PhysicsSenderRate": "1", "FIntPGSAngularDampingPermilPersecond": "0" }
-```
-### Noclip 1
-###### adjust the value so u dont fall through the ground
-```json
-{ "DFFlagAssemblyExtentsExpansionStudHundredth": "-50" }
-```
-### Noclip 2
-```json
-{ "FIntPGSPenetrationMarginMax": "2147483647", "FIntPGSPenetrationMarginMin": "2147483647" }
-```
-### Noclip Combo
-###### adjust the value so u dont fall through the ground
-```json
-{ "FIntPGSPenetrationMarginMax": "2147483647", "FIntPGSPenetrationMarginMin": "2147483647", "DFFlagAssemblyExtentsExpansionStudHundredth": "-50" }
-```
-### Teleportation
-###### a.k.a control the unanchored
-```json
-{ "FIntPGSPenetrationMarginMax": "-100000000", "FIntPGSPenetrationMarginMin": "-100000000" }
-```
 ### limited speed fflag that works only in a few games
 ###### one of them being Phantom Forces, and it makes you only slightly faster
 ```json
@@ -418,7 +387,7 @@ High
 ```
 ### Wallglide
 ```json
-{ "DFFlagUnstickForceAttackInTenths": "-4" }
+{ "DFIntUnstickForceAttackInTenths": "-4" }
 ```
 
 <h1 align="center">other fflags</h1>
@@ -554,7 +523,6 @@ High
 { "DFIntMaxActiveAnimationTracks": "0" }
 ```
 ### Prevents Remote Events from running
-###### W SPECTRO
 ```json
 { "DFIntRemoteEventSingleInvocationSizeLimit": "1" }
 ```
