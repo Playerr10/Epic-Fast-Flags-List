@@ -150,7 +150,7 @@ High
 ### Makes avatars shiny 
 ###### [everything goes black on <3] ***[DFIntDebugFRMQualityLevelOverride is there to set your graphics to 10, You can change it to anything above 3: [Click here to view](https://github.com/FastFlags/FastFlags-Collective?tab=readme-ov-file#frm-levels) ]***
 ```json
-{ "DFIntRenderClampRoughnessMax": "-640000000", "FIntRomarkStartWithGraphicQualityLevel": "3" }
+{ "DFIntRenderClampRoughnessMax": "-640000000", "DFIntDebugFRMQualityLevelOverride": "6" }
 ```
 ### Disable PostFX
 ```json
