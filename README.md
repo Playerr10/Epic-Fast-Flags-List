@@ -375,6 +375,11 @@ High
 ```json
 { "DFIntMaxMissedWorldStepsRemembered": "1000" }
 ```
+### Noclip
+###### adjust the value so u dont fall through the ground
+```json
+{ "DFFlagAssemblyExtentsExpansionStudHundredth": "-50" }
+```
 ### limited speed fflag that works only in a few games
 ###### one of them being Phantom Forces, and it makes you only slightly faster
 ```json
