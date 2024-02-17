@@ -103,7 +103,7 @@
 ```json
 { "DFFlagDisableDPIScale": "True" }
 ```
-### Low Graphics Quality w/ Max Render Distance
+### Low Graphics Quality w/ Max Render Distance/FRM Quality Levels
 ###### Explanation: 1-6 Are low graphics, Above 6 are high graphics. Like the 1-21 graphics slider
 ```json
 { "DFIntDebugFRMQualityLevelOverride": "1" }
@@ -150,7 +150,7 @@ High
 ### Makes avatars shiny 
 ###### [everything goes black on <3] ***[DFIntDebugFRMQualityLevelOverride is there to set your graphics to 10, You can change it to anything above 3: [Click here to view](https://github.com/FastFlags/FastFlags-Collective?tab=readme-ov-file#frm-levels) ]***
 ```json
-{ "DFIntRenderClampRoughnessMax": "-640000000", "DFIntDebugFRMQualityLevelOverride": "21" }
+{ "DFIntRenderClampRoughnessMax": "-640000000", "FIntRomarkStartWithGraphicQualityLevel": "3" }
 ```
 ### Disable PostFX
 ```json
