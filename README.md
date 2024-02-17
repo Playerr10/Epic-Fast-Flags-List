@@ -305,13 +305,13 @@ High
 
 <h1 align="center">Physics</h1>
 
-### Old Physics
+### Disables PGS Solver
 ```json
 { "FFlagSimDefaultPGSSolver": "False" }
 ```
 ### No Animations
 ```json
-{ "DFIntReplicatorAnimationTrackLimitPerAnimator": ""1 }
+{ "DFIntReplicatorAnimationTrackLimitPerAnimator": "-1" }
 ```
 ### Stick unanchored parts to you
 ##### - = up, + = down
@@ -320,15 +320,11 @@ High
 { "DFIntSolidFloorPercentForceApplication": "-1000", "DFIntNonSolidFloorPercentForceApplication": "-5000" }
 ```
 ### Custom Walkspeed on games that have default walkspeed <sup>every game!?</sup>
+###### doesnt work in criminality
 ###### gatekept ofc
 ###### default value is 16 
 ```json
 { "": "VALUEHERE" }
-```
-### Breaks glitches stuff
-###### All type of wallhops, longjumps, headhitters and probably more stop working
-```json
-{ "DFFlagSimHumanoidPhysics": "True" }
 ```
 ### Max Raycast Distance
 ###### Break legs collision from 2 to -inf, kinda break camera on values over 3
