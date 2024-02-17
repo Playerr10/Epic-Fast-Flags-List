@@ -310,12 +310,11 @@ High
 { "FFlagSimDefaultPGSSolver": "False" }
 ```
 ### No Animations
-###### gatekept ofc
 ```json
-{ "": "" }
+{ "DFIntReplicatorAnimationTrackLimitPerAnimator": ""1 }
 ```
 ### Stick unanchored parts to you
-###### - = up, + = down
+##### - = up, + = down
 ###### blame popbob he said it was ok to leak this
 ```json
 { "DFIntSolidFloorPercentForceApplication": "-1000", "DFIntNonSolidFloorPercentForceApplication": "-5000" }
@@ -360,7 +359,6 @@ High
 { "DFIntS2PhysicsSenderRate": "-30" }
 ```
 ### Invisible 0,0,0
-###### gatekept ofc
 ```json
 { "DFIntGameNetPVHeaderTranslationZeroCutoffExponent": "10" }
 ```
