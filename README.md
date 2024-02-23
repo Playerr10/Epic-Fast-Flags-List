@@ -2,9 +2,9 @@
 > https://github.com/FastFlags/FastFlags-Collective/
 <h1 align="center"><img src="https://github.com/pizzaboxer/bloxstrap/raw/main/Images/Bloxstrap.png" width="28"/> Ultimate Fast Flags List (Everything will be listed here for use unlike joining the discord server. :)</h1>
 
-<h3 align="center">https://discord.gg/Q5JKyzuNRC</h3>
+<h3 align="center"><s> https://discord.gg/Q5JKyzuNRC </s></h3>
 
-<h6 align="center">https://discord.gg/fastflags</h6>
+<h6 align="center"><s>https://discord.gg/fastflags</s></h6>
 
 ##### Version: 6.0.3 [2/17/2024]
 * **102 Currently Listed**
