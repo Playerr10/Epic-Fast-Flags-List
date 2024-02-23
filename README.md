@@ -1,6 +1,6 @@
 > [!IMPORTANT]
 > https://github.com/FastFlags/FastFlags-Collective/
-<h1 align="center"><img src="https://github.com/pizzaboxer/bloxstrap/raw/main/Images/Bloxstrap.png" width="28"/> Ultimate Fast Flags List</h1>
+<h1 align="center"><img src="https://github.com/pizzaboxer/bloxstrap/raw/main/Images/Bloxstrap.png" width="28"/> Ultimate Fast Flags List (Everything will be listed here for use unlike joining the discord server. :)</h1>
 
 <h3 align="center">https://discord.gg/Q5JKyzuNRC</h3>
 
